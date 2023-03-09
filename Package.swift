@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_RemoteConfigWrapper",
 				dependencies: [
 					"GXCoreModule_SD_RemoteConfig",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_RemoteConfig",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_RemoteConfig-1.0.0-beta+20230309092859.xcframework.zip",
-			checksum: "49cc3c5c5d5d3583cbba32e916d94f1e58e6a98f1a2504d1cfc703dd5ee5dc06"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_RemoteConfig-1.0.0-beta+20230309100338.xcframework.zip",
+			checksum: "89b7b54f3b7930b4a520d543248939f8c933017ee917f46fbbd393b83119a92f"
 		)
 	]
 )
