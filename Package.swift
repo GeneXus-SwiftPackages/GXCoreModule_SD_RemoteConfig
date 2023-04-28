@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_RemoteConfig",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_RemoteConfig-1.0.0-beta+20230428153652.xcframework.zip",
-			checksum: "c0bd9a5b1d9be08948f791ffb2a3d7ff249b579c6a44b3b17bd7e108b30cd276"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_RemoteConfig-1.0.0-beta+20230428202437.xcframework.zip",
+			checksum: "1800cde27d7a56f77d6ba462ae29dbb7c0e1d9ed144acd8846f9553871acf9da"
 		)
 	]
 )
