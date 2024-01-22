@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_RemoteConfigWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.4.0-beta.17")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.4.0-beta.18")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_RemoteConfigWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_RemoteConfig",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_RemoteConfig-1.4.0-beta.17.xcframework.zip",
-			checksum: "d926a87a6faac377d05ca745f016717e315efc0ff63dfc2fa3674b5de986796a"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_RemoteConfig-1.4.0-beta.18.xcframework.zip",
+			checksum: "ec1369a0067cd3009206252f98d7d0c58093a9ef2549357eeb473e72cbe8ca55"
 		)
 	]
 )
